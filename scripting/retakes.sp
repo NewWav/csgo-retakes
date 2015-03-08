@@ -644,7 +644,7 @@ public void UpdateTeams() {
         if (IsValidClient(client)) {
             SwitchPlayerTeam(client, CS_TEAM_T);
             g_Team[client] = CS_TEAM_T;
-            g_PlayerPrimary[client] = "weapon_ak47";
+            g_PlayerPrimary[client] = "weapon_galilar";
             g_PlayerSecondary[client] = "weapon_glock";
             g_PlayerNades[client] = "";
             g_PlayerKit[client] = false;
@@ -659,7 +659,7 @@ public void UpdateTeams() {
         if (IsValidClient(client)) {
             SwitchPlayerTeam(client, CS_TEAM_CT);
             g_Team[client] = CS_TEAM_CT;
-            g_PlayerPrimary[client] = "weapon_m4a1";
+            g_PlayerPrimary[client] = "weapon_famas";
             g_PlayerSecondary[client] = "weapon_hkp2000";
             g_PlayerNades[client] = "";
             g_PlayerKit[client] = true;
